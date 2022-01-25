@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/data/base_data_loader.h
+univ.h
+../src/data/univ.h
+vector
+-
+
+../src/data/csv_data_loader.h
+base_data_loader.h
+../src/data/base_data_loader.h
+mutex
+-
+string
+-
+
+../src/include/univ.h
+cstdint
+-
+
+/home/screamovo/Bytedance-database-project-main/test/lab1/csv_data_loader_test.cc
+data/csv_data_loader.h
+/home/screamovo/Bytedance-database-project-main/test/lab1/data/csv_data_loader.h
+test_base.h
+/home/screamovo/Bytedance-database-project-main/test/lab1/test_base.h
+gtest/gtest.h
+-
+iostream
+-
+
+/home/screamovo/Bytedance-database-project-main/test/lab1/test_base.h
+data/csv_data_loader.h
+/home/screamovo/Bytedance-database-project-main/test/lab1/data/csv_data_loader.h
+gtest/gtest.h
+-
+
