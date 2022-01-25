@@ -1,5 +1,6 @@
 # 【字学镜像计划 后端&大数据-初级】内存数据布局
 实现了RowTable和ColumnTable的GetIntField()和PutIntField()以及ColumnSun()方法。<br>
+**注：先运行sh build.sh --clean --lab1命令后运行cd build && ctest -VV -R "database_*" -j。**<br>
 This is a project based on stanford cs245.
 
 # Prerequisite
